@@ -11567,7 +11567,7 @@
   "locales": [
     {
       "name": "English",
-      "code": "en",
+      "code": "en-US",
       "fallbackCode": null,
       "default": true,
       "contentManagementApi": true,
@@ -11612,7 +11612,7 @@
     {
       "name": "German",
       "code": "de",
-      "fallbackCode": "en",
+      "fallbackCode": "en-US",
       "default": false,
       "contentManagementApi": true,
       "contentDeliveryApi": true,

@@ -7,15 +7,15 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = {
   PORT: process.env.PORT || 5000,
-  JWT_SECRET: process.env.JWT_SECRET,
-  MONGO_URI: process.env.MONGO_URI,
-  NODE_ENV: process.env.NODE_ENV,
+  JWT_SECRET: "its me aman",
+  MONGO_URI: "mongodb+srv://amany29074:22124006@khanakhojo.xizkwpq.mongodb.net/?retryWrites=true&w=majority&appName=KhanaKhojo",
+  NODE_ENV: "development",
   INITIAL_CHIPS_AMOUNT: 30000,
   JWT_TOKEN_EXPIRES_IN: 3600000 * 24,
-  SMTP_HOST: process.env.SMTP_HOST,
-  SMTP_PORT: process.env.SMTP_PORT,
-  SMTP_USER: process.env.SMTP_USER,
-  SMTP_PW: process.env.SMTP_PW,
+  SMTP_HOST: "smtp.gmail.com",
+  SMTP_PORT: 587,
+  SMTP_USER: "amany29074@gmail.com",
+  SMTP_PW: "#GYGUVPU9",
   FROM_NAME: 'Vintage Poker Info',
   FROM_EMAIL: 'no-reply@vintagepoker.net',
 };
